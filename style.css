@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+html, body, .main {
+    height: 100%;
+}
+.main{
+    display: flex;
+    height: 100%;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+.slidebar{
+    display: block;
+    background-color: #191718;
+    min-height: 100%;
+    width: 13%;
+}
+.slidebar .ul{
+    
+}
+.slidebar ul li{
+    list-style: none;
+    
+}
+.slidebar ul li a{
+    color: #fff;
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #AAAAAA;
+    padding: 15px;
+    text-decoration: none;
+    border-bottom: 1px solid #5C5C5C;
+}
+.slidebar ul li a:hover{
+    background-color: #5C5C5C;
+}
+.main-content{
+    width: 87%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 129px;
+    text-align: center;
+}
+.main-content .logo{
+    padding-top: 20px;
+}
+.main-content .news-content{
+    background: #EFEFEF;
+    padding: 20px 50px;
+    
+}
+.list-item .item h2,
+.news-content h2{
+    padding:12px 0;
+}
+.news-content p{
+    padding-bottom:12px ;
+    text-align: center;
+    align-items: center;
+}
+.list-item{
+    display: flex;
+}
+.list-item .item {
+    width: 33%;
+    text-align: start;
+    padding-right: 30px;
+}
+.list-item .item h2{
+    
+}
+.list-item .item .item-img{
+    display: flex;
+}
+.item .item-img img {
+    width: 128px;
+    height: 128px;
+}
+.footer{
+    bottom: 0;
+    display: flex;
+    margin-top: auto;
+}
